@@ -1,0 +1,73 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+div {
+	float: left;
+	margin: 0px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+div > div {
+	background-color: darkgray;
+	margin: 0px;
+	font-size: 20px;
+	font-weight: 600;
+	border: 1px solid black;
+	padding: 0px;
+	width: 100%;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+div > p {
+	margin: 10px;
+}
+
+h2 {
+	border: 1px solid black;
+	text-align: center;
+	margin: 0px;
+	position: relative;
+	font-size: 30px;
+	width: 30%;
+	left: 70%;
+	box-sizing: border-box;
+}
+
+.modelx h2 {
+	background-color: silver;
+}
+
+.models h2 {
+	color: white;
+	background-color: #0D4F8B;
+}
+
+.model3 h2 {
+	background-color: #cc0000;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.modelx, .models {
+		width: 50%;
+	}
+
+	.model3 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	div {
+		width: 33.333333333%;
+	}
+}
